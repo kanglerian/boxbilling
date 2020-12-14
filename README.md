@@ -1,3 +1,13 @@
+# Readme for Docker
+1. Download first the code repository
+2. Run on your terminal -> docker build -t boxbilling .
+3. Run on your terminal -> docker container create --name boxbillingserver -p 8004:80 boxbilling
+4. Run on your terminal -> docker container start boxbillingserver
+5. You can access phpmyadmin on -> localhost:8004/phpmyadmin
+6. If you can access niagahoster web, please type on the URL browser localhost:8004/
+
+
+
 <h1 align="center">
   <br>
   <a href="https://boxbilling.com/"><img src="https://raw.githubusercontent.com/boxbilling/boxbilling/master/src/bb-themes/boxbilling/assets/images/box.png" alt="BoxBilling" width="125"></a>
